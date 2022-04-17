@@ -214,6 +214,7 @@ SET(CMAKE_EXE_LINKER_FLAGS_DEBUG "${CMAKE_EXE_LINKER_FLAGS_DEBUG} ${EXTRA_EXE_LI
 #------------------------------------------------
 # DIRS
 #------------------------------------------------
+ADD_SUBDIRECTORY(include)
 ADD_SUBDIRECTORY(src)
 IF(BUILD_UTILS)
 ADD_SUBDIRECTORY(utils)
